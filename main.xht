@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>JSHash</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="main.css"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha224.js"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha384.js"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha512.js"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha3.js"/>
+		<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js"/>
+		<script src="main.es" defer="defer"/>
+	</head>
+	<body>
+		<textarea id="input" autofocus="autofocus" placeholder="Input" spellcheck="true"/>
+		<span id="algorithm-list">
+			<span id="sha1">
+				<a>SHA-1</a>
+			</span>
+			<span id="sha2">
+				<a>SHA-2-224</a>
+				<a>SHA-2-256</a>
+				<a>SHA-2-384</a>
+				<a>SHA-2-512</a>
+			</span>
+			<span id="sha3">
+				<a>SHA-3-224</a>
+				<a>SHA-3-256</a>
+				<a>SHA-3-384</a>
+				<a>SHA-3-512</a>
+			</span>
+		</span>
+		<label>
+			<input id="base64" type="checkbox"/>
+			Base-64 output (as opposed to base-16)
+		</label>
+		<textarea id="output" placeholder="Output" readonly="readonly"/>
+	</body>
+</html>

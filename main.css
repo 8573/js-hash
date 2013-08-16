@@ -19,7 +19,7 @@ textarea {
 	padding: 1em;
 	box-sizing: border-box;
 	border: none;
-	border-radius: .75em;
+	border-radius: .5em .5em 0 .5em;
 	background-color: #777;
 	color: #BBB;
 	box-shadow: inset -.125em .125em 2em 0 rgba(0,0,0,.125);

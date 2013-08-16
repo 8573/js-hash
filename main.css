@@ -9,7 +9,7 @@ body {
 	width: 80%;
 	margin: 10%;
 	padding: 0;
-	color: #CCC;
+	color: #BBB;
 }
 
 textarea {
@@ -21,7 +21,8 @@ textarea {
 	border: none;
 	border-radius: .75em;
 	background-color: #777;
-	color: #CCC;
+	color: #BBB;
+	box-shadow: inset -.125em .125em 2em 0 rgba(0,0,0,.125);
 }
 
 a {

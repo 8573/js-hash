@@ -15,23 +15,23 @@
 	<body>
 		<h1 id="title">SHA hash calculator</h1>
 		<textarea id="input" placeholder="Input" spellcheck="true"/>
-		<span id="algorithm-list">
-			<span id="sha1">
-				<a>SHA-1</a>
-			</span>
-			<span id="sha2">
-				<a>SHA-2-224</a>
-				<a>SHA-2-256</a>
-				<a>SHA-2-384</a>
-				<a>SHA-2-512</a>
-			</span>
-			<span id="sha3">
-				<a>SHA-3-224</a>
-				<a>SHA-3-256</a>
-				<a>SHA-3-384</a>
-				<a>SHA-3-512</a>
-			</span>
-		</span>
+		<ul id="algorithm-list">
+			<li><ul id="sha1">
+				<li><a>SHA-1</a></li>
+			</ul></li>
+			<li><ul id="sha2">
+				<li><a>SHA-2-224</a></li>
+				<li><a>SHA-2-256</a></li>
+				<li><a>SHA-2-384</a></li>
+				<li><a>SHA-2-512</a></li>
+			</ul></li>
+			<li><ul id="sha3">
+				<li><a>SHA-3-224</a></li>
+				<li><a>SHA-3-256</a></li>
+				<li><a>SHA-3-384</a></li>
+				<li><a>SHA-3-512</a></li>
+			</ul></li>
+		</ul>
 		<label>
 			<input id="base64" type="checkbox"/>
 			Base-64 output (as opposed to base-16)

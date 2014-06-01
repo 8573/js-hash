@@ -28,7 +28,6 @@ textarea {
 a {
 	font-weight: 900;
 	cursor: pointer;
-	text-shadow: 0 0 1em #FFF;
 }
 a:hover  { text-shadow: 0 0 1em #FFF, 0 0 .5em #FFF; }
 a:active { text-shadow: 0 0 1em #FFF, 0 0 .5em #FFF, 0 0 .25em #FFF; }
